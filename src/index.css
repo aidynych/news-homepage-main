@@ -85,6 +85,10 @@ h1 {
 h3 {
   color: var(--clr-very-dark-blue);
 }
+h3:hover {
+  color: var(--clr-soft-red);
+  cursor: pointer;
+}
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -106,6 +110,10 @@ body {
   color: white;
   font-weight: var(--fw-bold);
   font-size: 1.2rem;
+}
+.color-white:hover {
+  cursor: pointer;
+  color: var(--clr-soft-orange);
 }
 .grayish {
   color: var(--clr-grayish-blue);
@@ -131,6 +139,9 @@ body {
 .primary-navigation li > a {
   text-decoration: none;
   color: var(--clr-dark-grayish-blue);
+}
+.primary-navigation li > a:hover {
+  color: var(--clr-soft-red);
 }
 .mobile-nav-toggle {
   display: none;
@@ -240,6 +251,10 @@ main {
   letter-spacing: 3px;
   display: inline-block;
   font-size: 0.7rem;
+}
+.button:hover {
+  background-color: var(--clr-very-dark-blue);
+  cursor: pointer;
 }
 
 .group {
