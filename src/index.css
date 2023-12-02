@@ -282,7 +282,7 @@ main {
   gap: 0.5rem;
 }
 .flex-group img {
-  width: 94px;
+  width: 160px;
 }
 .flex-group h1 {
   color: var(--clr-grayish-blue);
